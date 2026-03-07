@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sultan Trad Learning</title>
+
+<style>
+
+body{
+background:#000;
+font-family: Arial, sans-serif;
+text-align:center;
+color:white;
+margin:0;
+padding:0;
+}
+
+.container{
+padding:30px 20px;
+}
+
+.profile{
+width:140px;
+height:140px;
+border-radius:50%;
+border:4px solid #1e90ff;
+box-shadow:0 0 25px #1e90ff;
+margin:auto;
+overflow:hidden;
+}
+
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+h1{
+color:#1e90ff;
+margin-top:20px;
+font-size:28px;
+}
+
+.line{
+width:200px;
+height:3px;
+background:#1e90ff;
+margin:10px auto 25px;
+}
+
+.btn{
+display:inline-block;
+background:#1e90ff;
+padding:16px 35px;
+border-radius:40px;
+color:white;
+font-weight:bold;
+font-size:18px;
+text-decoration:none;
+margin:20px 0;
+}
+
+.btn2{
+display:inline-block;
+border:3px solid #00ff66;
+padding:15px 35px;
+border-radius:40px;
+color:white;
+font-weight:bold;
+font-size:18px;
+text-decoration:none;
+margin-top:15px;
+}
+
+.yellow{
+color:#ffd400;
+font-size:18px;
+margin:25px 0;
+}
+
+.green{
+color:#00ff66;
+font-size:18px;
+}
+
+.red{
+color:#ff4444;
+font-size:20px;
+font-weight:bold;
+margin-top:20px;
+}
+
+.footer{
+font-size:13px;
+color:#aaa;
+margin-top:30px;
+padding:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="profile">
+<img src="profile.jpg">
+</div>
+
+<h1>TRADE WITH SULTAN™</h1>
+
+<div class="line"></div>
+
+<a href="https://t.me/armanmetaadsexpert" class="btn">JOIN FREE LEARNING GROUP</a>
+
+<div class="yellow">
+INTRADAY | OPTIONS | SWING | ANALYSIS
+</div>
+
+<a href="https://t.me/armanmetaadsexpert" class="btn2">JOIN FREE LEARNING GROUP</a>
+
+<div class="green">
+High Accuracy Signals | Real-Time Updates
+</div>
+
+<div class="red">
+NIFTY 50 | BANKNIFTY | INTRADAY | OPTIONS | SWING TRADE
+</div>
+
+<p>Learn, Analyse & Grow</p>
+
+<p id="count">Redirecting in 8s...</p>
+
+<div class="footer">
+Disclaimer: This content is for educational purposes only and does not constitute financial advice. Trading involves risk. Please do your own research before making investment decisions.
+</div>
+
+</div>
+
+<script>
+
+let time = 5;
+
+let x = setInterval(function(){
+
+time--;
+
+document.getElementById("count").innerHTML = "Redirecting in "+time+"s...";
+
+if(time<=0){
+
+clearInterval(x);
+
+window.location.href="https://t.me/armanmetaadsexpert";
+
+}
+
+},1000);
+
+</script>
+
+</body>
+</html>
